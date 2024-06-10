@@ -1,6 +1,6 @@
 **Sistema Bancário em Python**
 
-Este é um sistema bancário simples implementado em Python que permite realizar operações básicas como depósito, saque e exibição de extrato.
+Este é um software de sistema bancário simples implementado em Python que permite realizar operações básicas como depósito, saque e exibição de extrato.
 
 ### Funcionalidades:
 
@@ -10,19 +10,19 @@ Este é um sistema bancário simples implementado em Python que permite realizar
 
 ### Requisitos:
 
-- Python 3.x instalado no sistema.
+- Python 3.11 instalado no sistema.
 
 ### Como Usar:
 
 1. **Clonar o Repositório:**
    ```bash
-   git clone https://github.com/seu_usuario/sistema-bancario.git
+   git clone https://github.com/BeatrizPoncesIP/sistema-bancario.git
    ```
 
 2. **Executar o Programa:**
    ```bash
    cd sistema-bancario
-   python banco.py
+   python app.py
    ```
 
 3. **Seguir as Instruções:**
@@ -33,49 +33,76 @@ Este é um sistema bancário simples implementado em Python que permite realizar
 ### Exemplo de Uso:
 
 ```
-Bem-vindo ao Banco Python!
+Bem-vindo ao Banco Ponce!
 
 Escolha uma operação:
-1. Depósito
-2. Saque
-3. Extrato
-4. Sair
 
-Opção: 1
-Digite o valor do depósito: 100
-Depósito de R$ 100.00 realizado com sucesso!
-Saldo atual: R$ 100.00
+[0] Sair
+[1] Depositar
+[2] Sacar
+[3] Extrato
 
-Escolha uma operação:
-1. Depósito
-2. Saque
-3. Extrato
-4. Sair
+=> 1
 
-Opção: 2
-Digite o valor do saque: 50
-Saque de R$ 50.00 realizado com sucesso!
-Saldo atual: R$ 50.00
+Informe o valor do depósito: 10000
+
+Depósito realizado com sucesso!
 
 Escolha uma operação:
-1. Depósito
-2. Saque
-3. Extrato
-4. Sair
 
-Opção: 3
-Extrato:
-1. Depósito: R$ 100.00
-2. Saque: R$ 50.00
-Saldo atual: R$ 50.00
+[0] Sair
+[1] Depositar
+[2] Sacar
+[3] Extrato
+
+=> 2
+
+Informe o valor do saque: 100
+
+Saque realizado com sucesso!
 
 Escolha uma operação:
-1. Depósito
-2. Saque
-3. Extrato
-4. Sair
 
-Opção: 4
+[0] Sair
+[1] Depositar
+[2] Sacar
+[3] Extrato
+
+=> 2
+
+Informe o valor do saque: 50
+
+Saque realizado com sucesso!
+
+Escolha uma operação:
+
+[0] Sair
+[1] Depositar
+[2] Sacar
+[3] Extrato
+
+=> 3
+
+===================  EXTRATO  ====================
+
+Depósito:           R$                    10000.00
+Saque:              R$                      100.00
+Saque:              R$                       50.00
+
+
+Saldo:              R$                     9850.00
+
+==================================================
+
+Escolha uma operação:
+
+[0] Sair
+[1] Depositar
+[2] Sacar
+[3] Extrato
+
+=> 0
+
 Obrigado por utilizar o Banco Python!
 ```
 
@@ -85,7 +112,7 @@ Se desejar contribuir com melhorias ou correções, sinta-se à vontade para env
 
 ### Autor:
 
-Seu Nome <seu_email@exemplo.com>
+Beatriz Ponces <beatrizponces.oficial@gmail.com>
 
 ### Licença:
 

@@ -1,4 +1,6 @@
 menu = """
+Escolha uma operação:
+
 [0] Sair
 [1] Depositar
 [2] Sacar
@@ -14,6 +16,8 @@ tamanho_coluna1_extrato = 20
 tamanho_coluna2_extrato = tamanho_extrato - tamanho_coluna1_extrato - 3
 saques_hoje = 0
 SAQUES_DIARIOS_MAX = 3
+
+print("Bem-vindo ao Banco Ponce!")
 
 while True:
 
@@ -62,6 +66,7 @@ while True:
         print("".center(tamanho_extrato, "="))
 
     elif opcao == 0:
+        print("Obrigado por utilizar o Banco Python!")
         break
 
     else:
